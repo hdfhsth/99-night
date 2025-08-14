@@ -6,7 +6,7 @@ if getgenv().RunScript == true then	return end
 getgenv().RunScript = true
 
 local queueScript = string.format([[
-loadstring(game:HttpGet(''))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/hdfhsth/99-night/refs/heads/main/Kaitun%20gem%2001'))()
 ]])
 
 queue_on_teleport(queueScript)
